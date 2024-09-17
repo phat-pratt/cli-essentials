@@ -20,7 +20,7 @@ A collection of essential CLI configurations, aliases, and functions to enhance 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/cli-essentials.git ~/.cli-essentials
+   git clone https://github.com/phat-pratt/cli-essentials.git ~/.cli-essentials
    ```
 
 2. Add the following line to your existing ~/.zshrc file:
