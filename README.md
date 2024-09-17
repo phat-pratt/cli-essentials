@@ -15,6 +15,8 @@ A collection of essential CLI configurations, aliases, and functions to enhance 
   - Random password generation
   - Git branch creation (with Jira ticket support)
   - Weather checking
+  - Check the meaning of a word
+  - Quickly look up command usage and examples
 
 ## Setup
 
