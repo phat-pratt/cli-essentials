@@ -11,6 +11,9 @@ alias l='ls -CF'
 alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
 
+# random 
+alias flipcoin='if [ $((RANDOM % 2)) -eq 0 ]; then echo "Heads"; else echo "Tails"; fi'
+
 # functions
 
 # generate a random password
@@ -58,4 +61,14 @@ jbranch() {
 # check weather for location
 weather() {
     curl "wttr.in/$1"
+}
+
+# check meaning of a word
+dict() {
+    curl "dict://dict.org/d:$1"
+}
+
+# Quickly looks up command usage and examples.
+cheat() {
+    curl "cheat.sh/$1"
 }
