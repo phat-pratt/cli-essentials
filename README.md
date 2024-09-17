@@ -23,9 +23,9 @@ A collection of essential CLI configurations, aliases, and functions to enhance 
    git clone https://github.com/yourusername/cli-essentials.git ~/.cli-essentials
    ```
 
-2. Symlink the .zshrc file:
+2. Add the following line to your existing ~/.zshrc file:
    ```
-   ln -s ~/.cli-essentials/.zshrc ~/.zshrc
+   source ~/.cli-essentials/.zshrc
    ```
 
 3. Reload your shell:
@@ -35,4 +35,6 @@ A collection of essential CLI configurations, aliases, and functions to enhance 
 
 ## Usage
 
-Refer to the comments in the `.zshrc` file for details on available aliases and functions.
+After setup, all aliases and functions from cli-essentials will be available in your shell. Refer to the comments in the `.zshrc` file for details on available aliases and functions.
+
+
